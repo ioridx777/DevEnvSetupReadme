@@ -4,7 +4,19 @@
 1. Go to Settings => Developer Settings => Personal access token
 2. Click Generate new token
 3. Fill in the access(Note is for identifying usage) and click Generate
-4. Copy the code and paste in the password prompt when pushing in git
+4. Save the git credential by command `git config --global credential.helper store`
+5. Copy the code and paste in the password prompt when pushing in git
+
+## Install and update dependency for nvim
+1. run the following command
+`sudo apt upgrade 
+sudo apt install build-essential`
+2. if compiling nvim from source
+`sudo apt-get install ninja-build gettext cmake unzip curl`
+
+## Installing Lunar vim
+1. install neovim (it is dependency for lvim)
+2. [Install guide](https://www.lunarvim.org/docs/installation)
 
 ## Personal Lunar vim setting
 1. open ~/.config/lvim/config.lua
