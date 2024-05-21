@@ -1,5 +1,9 @@
 # Overview for settings development workspace
 
+## Setting up ohmyzsh
+
+## Setting up tmux
+
 ## Github getting personal access token
 1. Go to Settings => Developer Settings => Personal access token
 2. Click Generate new token
